@@ -41,22 +41,19 @@
             android:text="@string/rbtParticular" />
     </RadioGroup>
 
-
-    <include
-        android:layout_width="wrap_content"
+    <include android:layout="@layout/layout_particular"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout="@layout/layout_particular"
-        app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@id/rdgTypeClient" />
-
-    <include
         android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/rdgTypeClient"
+        app:layout_constraintStart_toStartOf="@id/guideline2"/>
+
+    <include android:layout="@layout/layout_bussines"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:layout="@layout/layout_bussines"
-        app:layout_constraintStart_toStartOf="@id/guideline2"
-        app:layout_constraintTop_toBottomOf="@id/rdgTypeClient" />
+        android:layout_width="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/rdgTypeClient"
+        app:layout_constraintStart_toStartOf="@id/guideline2"/>
+
+
 
     <android.support.constraint.Guideline
         android:id="@+id/guideline2"

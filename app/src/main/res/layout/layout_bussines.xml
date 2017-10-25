@@ -11,10 +11,11 @@
             android:id="@+id/txvRepresentative"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
             android:text="@string/txvRepresentative"
-            app:layout_constraintTop_toTopOf="parent"
-            tools:layout_editor_absoluteX="16dp" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <EditText
             android:id="@+id/edtRepresentative"
@@ -29,10 +30,10 @@
             android:id="@+id/txvBussinesID"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             android:text="@string/txvBussinesID"
-            app:layout_constraintTop_toBottomOf="@+id/edtRepresentative"
-            tools:layout_editor_absoluteX="16dp" />
+            app:layout_constraintStart_toStartOf="@+id/edtRepresentative"
+            app:layout_constraintTop_toBottomOf="@+id/edtRepresentative" />
 
         <EditText
             android:id="@+id/edtBussinesID"
@@ -47,10 +48,10 @@
             android:id="@+id/txvNumEmployers"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="12dp"
             android:text="@string/txvNumEmployers"
-            app:layout_constraintTop_toBottomOf="@+id/edtBussinesID"
-            tools:layout_editor_absoluteX="16dp" />
+            app:layout_constraintStart_toStartOf="@+id/edtBussinesID"
+            app:layout_constraintTop_toBottomOf="@+id/edtBussinesID" />
 
         <EditText
             android:id="@+id/edtNumEmployers"
